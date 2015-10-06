@@ -5,7 +5,7 @@ $(document).ready(function(){
     We'll need to create variables to represent the following values:
     - Monday Temperature [number]
     - Tuesay Temperature [number]
-    - Wedday Temperature [number]
+    - Wednesday Temperature [number]
     - Thursday Temperature [number]
     - Friday Temperature [number]
 
