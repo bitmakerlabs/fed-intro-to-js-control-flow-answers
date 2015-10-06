@@ -11,11 +11,9 @@ $(document).ready(function(){
 
     Ex. var monTemp = 5;
   */
-  var monTemp = 5,
-      tuesTemp = 19,
-      wedTemp = 15,
-      thursTemp = 2,
-      friTemp = -10;
+  var mondayTemp = 5;
+
+
 
 
   /*
@@ -25,7 +23,9 @@ $(document).ready(function(){
   
     Ex. var myArray = [monTemp, tuesTemp, wedTemp, thursTemp, friTemp]
   */
-  var myArray = [monTemp, tuesTemp, wedTemp, thursTemp, friTemp];
+
+
+
 
 
   /*
@@ -33,10 +33,7 @@ $(document).ready(function(){
     We want to iterate over each item in your tempList Array ...
     The name of your iterator variable should be item
   */
-  for(var item = 0; item < myArray.length; item++) {
-
-    var currentItem = $('<li><span>' + myArray[item] + '&deg;C</span></li>');
-    currentItem.appendTo('#temp-list');
+  for(var item = 0;) {
 
 
 
@@ -51,16 +48,6 @@ $(document).ready(function(){
       * Note, we're only creating the conditions.
         The blocks for each condition should be empty at the moment
     */
-
-
-    if(myArray[item] > 10) {
-      currentItem.addClass('hot');
-    }
-    else if(myArray[item] > -5) {
-      currentItem.addClass('normal');
-    } else {
-      currentItem.addClass('cold'); 
-    }
 
 
 
