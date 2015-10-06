@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  /* 
+  /* STEP 1
     Create your variables here
     
     We'll need to create variables to represent the following values:
@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
 
-  /*
+  /* STEP 2
     Make an array and call it tempList.
     Your tempList array should hold all the temperatures you've created in
     the previous step (above).
@@ -28,7 +28,7 @@ $(document).ready(function(){
 
 
 
-  /*
+  /* STEP 3
     Complete this for loop. 
     We want to iterate over each item in your tempList Array ...
     The name of your iterator variable should be item
@@ -38,7 +38,7 @@ $(document).ready(function(){
     var currentItem = $('<li><span>' + myArray[item] + '&deg;C</span></li>');
     currentItem.appendTo('#temp-list');
 
-    /*
+    /* STEP 4
       IF/Else - Let's create some conditions!
 
       Create some if conditions:
@@ -54,30 +54,28 @@ $(document).ready(function(){
 
 
 
-    
 
 
-    /*
-          Once your conditions have been created, copy the following code
-          in their corresponding blocks
 
-          1) IF myArray[item] is GREATER THAN 10 ...
-    ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
-                  currentItem.addClass('hot');
+    /* STEP 5
+      Once your conditions have been created, copy the following code
+      in their corresponding blocks
 
-
-          2) ELSE IF myArray[item] is GREATER THAN -5 ...
-    ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the else if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
-              currentItem.addClass('normal');
+      1) IF myArray[item] is GREATER THAN 10 ...
+⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
+              currentItem.addClass('hot');
 
 
-          3) ELSE
-    ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the else block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
-              currentItem.addClass('cold'); 
+      2) ELSE IF myArray[item] is GREATER THAN -5 ...
+⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the else if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
+          currentItem.addClass('normal');
+
+
+      3) ELSE
+⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the else block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
+          currentItem.addClass('cold'); 
 
     */
-
-
 
   }
 });
