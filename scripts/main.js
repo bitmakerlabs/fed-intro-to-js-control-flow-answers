@@ -21,7 +21,7 @@ $(document).ready(function(){
     Your tempList array should hold all the temperatures you've created in
     the previous step (above).
   
-    Ex. var myArray = [monTemp, tuesTemp, wedTemp, thursTemp, friTemp]
+    Ex. var myArray = [monTemp, tuesTemp, wedTemp, thursTemp, friTemp];
   */
 
 
@@ -35,15 +35,15 @@ $(document).ready(function(){
   */
   for(var item = 0;) {
 
-    var currentItem = $('<li><span>' + myArray[item] + '&deg;C</span></li>');
+    var currentItem = $('<li><span>' + tempList[item] + '&deg;C</span></li>');
     currentItem.appendTo('#temp-list');
 
     /* STEP 4
       IF/Else - Let's create some conditions!
 
       Create some if conditions:
-      1) IF myArray[item] is GREATER THAN 10 ...
-      2) ELSE IF myArray[item] is GREATER THAN -5 ...
+      1) IF tempList[item] is GREATER THAN 10 ...
+      2) ELSE IF tempList[item] is GREATER THAN -5 ...
       3) ELSE
 
       * Note, we're only creating the conditions.
@@ -61,12 +61,12 @@ $(document).ready(function(){
       Once your conditions have been created, copy the following code
       in their corresponding blocks
 
-      1) IF myArray[item] is GREATER THAN 10 ...
+      1) IF tempList[item] is GREATER THAN 10 ...
 ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
               currentItem.addClass('hot');
 
 
-      2) ELSE IF myArray[item] is GREATER THAN -5 ...
+      2) ELSE IF tempList[item] is GREATER THAN -5 ...
 ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄  Copy this code in the else if block: ⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄⌄
           currentItem.addClass('normal');
 
