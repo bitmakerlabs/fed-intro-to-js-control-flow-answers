@@ -28,6 +28,15 @@ body {
   background-color: DeepSkyBlue;
 }
 
+.inferno {
+  background-color: red;
+}
+
+.forty {
+  background-color: black;
+  color: white;
+}
+
 main {
   position: relative;
 }
